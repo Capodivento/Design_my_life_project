@@ -1,0 +1,172 @@
+
+ 
+<html lang="en"></html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design my life</title>
+   <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <style>
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Design My Life — Project</title>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --accent: #48DBF1; --muted: #94a3b8; }
+        body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: linear-gradient(180deg,#0f172a 0%, #020617 100%); color: #e6edf3; }
+        .mono { font-family: 'Share Tech Mono', monospace; }
+        .card { background: rgba(255,255,255,0.04); border: 1px solid rgba(72,219,251,0.08); border-radius: 12px; }
+        .accent { color: var(--accent); }
+        .small-muted { color: var(--muted); font-size: .95rem; }
+        .accordion { width: 100%; text-align: left; }
+        .panel { display: none; }
+        .panel.open { display: block; }
+        .scientific-background { position: fixed; inset: 0; z-index: -2; background: linear-gradient(180deg,#0b1220 0%, #020417 100%); }
+    </style>
+</head>
+<body class="min-h-screen antialiased">
+    <div class="scientific-background"></div>
+    <header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+        <div>
+            <h1 class="text-2xl font-semibold">Design My Life</h1>
+            <p class="small-muted mono">A personal life-design project — intentional goals & systems</p>
+        </div>
+        <nav class="space-x-4">
+            <a href="#goals" class="mono accent hover:opacity-80">Goals</a>
+            <a href="#para" class="mono accent hover:opacity-80">PARA</a>
+            <a href="#inputs" class="mono accent hover:opacity-80">Inputs</a>
+        </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6 space-y-6">
+        <section id="goals" class="card p-6">
+            <h2 class="text-xl font-medium">Yearly Goals & Philosophy</h2>
+            <p class="small-muted mt-2">High-level life philosophy and mission (continually evolving).</p>
+
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4">
+                    <h3 class="font-semibold">Life Philosophy</h3>
+                    <ul class="list-disc list-inside mt-2 small-muted">
+                        <li>More intentionality, fewer distractions</li>
+                        <li>Exploration ↔ Exploitation (and pruning)</li>
+                        <li>Artifact-oriented: produce outputs and iterate</li>
+                        <li>Async input consumption and deliberate curation</li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-semibold">Personal Mission</h3>
+                    <p class="mt-2 small-muted">Be financially independent; improve digitalization thoughtfully; cultivate curiosity and produce valuable outputs.</p>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <button class="accordion w-full p-3 text-left card mono">Goals & Definitions</button>
+                <div class="panel p-4 card mt-2">
+                    <p class="small-muted">A goal is a group of completed tasks useful to a project. Examples:</p>
+                    <ul class="list-disc list-inside mt-2 small-muted">
+                        <li>Improve quality of thinking and reasoning</li>
+                        <li>Improve decision making and curiosity</li>
+                        <li>Produce outputs; increase release ratio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="para" class="card p-6">
+            <h2 class="text-xl font-medium">PARA — Projects, Areas, Resources, Archives</h2>
+            <p class="small-muted mt-2">Organize work and life with PARA. Use Projects for time-bound outcomes and Areas for continuous responsibilities.</p>
+
+            <div class="mt-4">
+                <button class="accordion w-full p-3 text-left mono">Areas & Projects (click to expand)</button>
+                <div class="panel p-4 mt-2 card">
+                    <ul class="list-disc list-inside small-muted">
+                        <li>Areas: Health, Relationships, Career, Learning</li>
+                        <li>Projects: Active projects with clear outcomes</li>
+                        <li>Tasks: attach to a project, area, or root</li>
+                        <li>Habits & Routines tracked daily</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="inputs" class="card p-6">
+            <h2 class="text-xl font-medium">Inputs & Knowledge Base</h2>
+            <p class="small-muted mt-2">Media categories and sources you rely on for learning and inspiration.</p>
+
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4">
+                    <h3 class="font-semibold">Media</h3>
+                    <ul class="list-disc list-inside mt-2 small-muted">
+                        <li>Video (watch later playlists)</li>
+                        <li>Articles/Blogs (RSS, bookmarks)</li>
+                        <li>Podcasts, Books, Scientific Papers</li>
+                    </ul>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-semibold">Curation</h3>
+                    <p class="small-muted mt-2">Balance curation and exploration. Track bias, use mental models, and keep a progressive PKM system.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="misc" class="card p-6">
+            <h2 class="text-xl font-medium">Practice & Habits</h2>
+            <div class="mt-4 small-muted">
+                <ul class="list-disc list-inside">
+                    <li>Time-blocking, Weekly reviews, and Habit tracking</li>
+                    <li>Prefer tasks >=15 minutes; smaller items: do immediately</li>
+                    <li>Deliberate practice and iteration</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-5xl mx-auto p-6 small-muted">
+        <div class="flex items-center justify-between">
+            <div>Made with ❤️ — keep iterating.</div>
+            <div class="mono">Last edited: Jan 4, 2026</div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple accordion behavior
+        document.querySelectorAll('.accordion').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const panel = btn.nextElementSibling;
+                if (!panel) return;
+                const isOpen = panel.classList.toggle('open');
+                btn.classList.toggle('active', isOpen);
+            });
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('nav a[href^="#"]').forEach(a => {
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    </script>
+</body>
+</html>
